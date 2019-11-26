@@ -23,7 +23,7 @@ public class MybatisPlusGenerator {
 		);
 
 		autoGenerator.setDataSource(new DataSourceConfig()
-				.setUrl("jdbc:mysql://10.5.151.240:3306/mybatis-plus-demo")
+				.setUrl("jdbc:mysql://localhost:3306/mybatis-plus-demo")
 				.setDriverName("com.mysql.jdbc.Driver")
 				.setUsername("root")
 				.setPassword("root")
